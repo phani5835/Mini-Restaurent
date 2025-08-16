@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: #555;
+    font-family: "Lexend Exa", serif;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+}
+
+.img-head{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('images/img-sd/header.jpg');
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    background-position: center;
+}
+
+.h-page {
+    color: white;
+    font-family: "Aldrich", serif;
+    font-optical-sizing: auto;
+    font-size: 90px;
+    position: absolute;
+    top: 40%;
+    margin-left: 40px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.h-page2 {
+    font-size: 65px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    height: 20%;
+    margin-left: 20px;
+}
+
+.nav-opt{
+    display: flex;
+    position: absolute;
+    right: 15%;
+    text-decoration: none;
+    list-style:none;
+    color: white;
+    margin-top: 4%;
+    font-size: 22px;
+    font-weight: 450;
+    gap: 25%;
+    white-space: nowrap;
+    border-bottom:3px solid transparent;
+    padding-bottom: 2px;
+}
+
+
+.nav-opt li:hover,.nav-opt li:active{
+    border-bottom: 2px solid #f39c12;
+    
+}    
+.d-none{
+    text-decoration: none;
+    color: inherit;
+}
+.sec-2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight:200;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+.sec2-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sec-head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sec-body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    white-space: wrap;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec1-of-3{
+    flex: 1;
+    justify-content: center;
+    max-width: 10%;
+    box-sizing:border-box;
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.ic1{
+    font-size: 40px;
+    color: hsl(37, 100%, 50%);
+    align-items: left;
+}
+.col-ora{
+    text-align: center;
+    margin: 30px;
+    margin-left: 42%;
+    margin-right: 42%;
+    color: #f39c12;
+    font-size: 3px;
+    background-color: #f39c12;
+}
+.img-special{
+    height: 250px;
+    margin-bottom: 6%;
+    border-radius: 4%;
+    
+    transition: transform 0.3s ease;
+}
+.img-special:hover{
+    transform: scale(1.07);
+}
+.checked{
+    color: orange;
+}
+.fa{
+    margin-bottom: 10px;
+}
+.img-signhead{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(7, 6, 6, 0.7)), url('images/img-d/5.jpg');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.container-2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 4%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sign-card{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.form-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; 
+}
+.lab-txt {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.cred-box {
+    flex: 2;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+   
+}
+.cred-box:focus {
+    border: 1px solid #007BFF; 
+    outline: none;
+}
+.sub {
+    width: 150px;
+    height: 45px;
+    background-color: #f39c12;
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+}
+.sub:hover {
+    background-color: #d58300
+}
+.img-feed-head{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('images/img-sd/feed-body.avif');
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+}
+.sec-2-feed{
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight:200;
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    right: 7%;
+}
+.mar{
+    margin-bottom: 70px;
+}
+.mar-2{
+    margin-bottom: 25px;
+}
+
+.foot{
+    margin-top: 5%;
+    background-color: #333;
+    padding: 50px;
+    font-size: 20px;
+}
+.container-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1-of-2{
+    flex: 1;
+    align-items: center;
+    
+}
+.nav-links{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    float: left;
+}
+.nav-social{
+    list-style: none;
+    float: right;
+}
+.foot-list{
+    display: inline-block;
+    margin-right: 20px;
+}
+.container-3 a{
+    text-decoration: none;
+    color: inherit;
+}
+.container-3 a:hover{
+    color: #ddd;
+    opacity: 80%;
+}
+.statement{
+    font-size: 15px;
+    margin-top: 12px;
+    opacity: 50%;
+    text-align: center;
+}
+.slider-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px auto;
+  width: 70%;
+  height: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.slider-container img {
+  width: 17%;
+  height: 100%;
+  border: 2px solid #333;
+  object-fit: cover;
+  border-radius: 9px;
+  transition: all 0.4s ease-in-out;
+}
+
+.slider-container img:hover {
+  width: 35%;
+}
+.sec-one{
+    background-color: #3939393b;
+    padding-top: 0;
+}
